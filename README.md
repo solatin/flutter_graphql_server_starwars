@@ -1,3 +1,5 @@
+This is a customized clone of https://github.com/micimize/angel-starwars-test-server
+
 A simple starwars schema server adapted from the [angel starwars example](https://github.com/angel-dart/graphql/tree/master/example_star_wars) for use in testing graphql clients, such as [graphql_flutter](https://github.com/zino-app/graphql-flutter).
 
 The schema it aims to implement is in `schema.graphql`, and the seed data is mostly in `data.json`.
