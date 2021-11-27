@@ -9,10 +9,13 @@ The server is heavily limited:
 - a lot of mutations seem broken
 - we [can't test subscriptions in graphiql](https://github.com/angel-dart/angel/issues/250) atm
 
-To run, add as a dependency and
-
+# Quick start
 ```bash
-pub run graphql_starwars_test_server
+flutter pub get
+```
+and then
+```bash
+flutter pub run graphql_starwars_test_server
   # --host 127.0.0.1
   # --port 3000
   # --enableCors true      # false to disable cors
